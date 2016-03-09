@@ -13,10 +13,17 @@ filetype plugin indent on
 let g:airline_powerline_fonts = 1 "initialize fonts
 :set laststatus=2 "set to initialize from first window
 
-"Vim-Fugitive
+"Vim-Fugitive" //git wrapper
 
-"NERDTree
+"NERDTree //directory visualization
 
+"Vim-AutoClose" //Autoclosing brackets, parens, etc.
+
+"Solarized" //Color scheme--installed through Pathogen
+
+:set background=dark
+:let g:solarized_termcolors=256
+:let g:solarized_contrast="high"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "General"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -27,9 +34,9 @@ let g:airline_powerline_fonts = 1 "initialize fonts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 :syntax on "syntax highlighting
-:colorscheme jellybeans "color theme: jellybeans
+:colorscheme solarized 
 :set autoindent 
-:set sw=4 "autoindent amount
+:set sw=4 "autoindent spaces 
 :set hlsearch "highlight search results
 :set textwidth=80 "line width
 :set number "line numbers

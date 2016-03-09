@@ -1,10 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/philipsugg/Documents/Code_games/hashmap'
-let g:netrw_dirhist_2='/Users/philipsugg/.vim/bundle'
-let g:netrw_dirhist_3='/Users/philipsugg/.vim/bundle/vim-airline-themes'
-let g:netrw_dirhist_4='/Users/philipsugg/.vim/bundle'
-let g:netrw_dirhist_5='/Users/philipsugg/.vim/bundle/vim-fugitive'
-let g:netrw_dirhist_6='/Users/philipsugg'
-let g:netrw_dirhist_7='/Users/philipsugg/Public'
-let g:netrw_dirhist_8='/Users/philipsugg/Documents/Code_games/hashmap'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/philipsugg/.bundle'
