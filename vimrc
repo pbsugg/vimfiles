@@ -13,6 +13,9 @@ filetype plugin indent on
 let g:airline_powerline_fonts = 1 "initialize fonts
 :set laststatus=2 "set to initialize from first window
 
+"Vim-Fugitive
+
+"NERDTree
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "General"
