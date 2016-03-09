@@ -9,9 +9,9 @@ filetype plugin indent on
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "Settings for installed plugins"
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"Airline
-let g:airline_powerline_fonts = 1
-:set laststatus=2
+"Vim-Airline (Powerline)
+let g:airline_powerline_fonts = 1 "initialize fonts
+:set laststatus=2 "set to initialize from first window
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
