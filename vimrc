@@ -66,7 +66,7 @@ set timeoutlen=1000 ttimeoutlen=10
 "Show directory listing-probably obsolete with other plugins!
 nmap dr :Explore<CR>
 
-" Window navigation mapper to cursor navigation
+" Window navigation mapped to cursor navigation
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
@@ -78,6 +78,9 @@ map <leader>N :NERDTreeFind<CR>
 
 "Highlight all instances of word in current buffer
 nnoremap <Leader>h *<C-O>
+
+"Turn off current highlighting
+nmap <leader>hh :noh<CR>
 
 "Toggle between last open buffers
 map <Leader><Leader> <C-^>
