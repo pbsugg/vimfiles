@@ -48,8 +48,9 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 :syntax on "syntax highlighting
 :colorscheme solarized 
-:set autoindent 
+":set autoindent 
 :set sw=4 "autoindent spaces 
+:set ts=4 "make tab stop inserting 8 spaces!!"
 :set hlsearch "highlight search results
 :set textwidth=80 "line width
 :set number "line numbers
