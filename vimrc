@@ -84,7 +84,7 @@ nnoremap <Leader>h *<C-O>
 nmap <leader>hh :noh<CR>
 
 "Toggle between last open buffers
-map <Leader><Leader> <C-^>
+nnoremap <Leader><Leader> <C-^>
 
 "Open vimrc
 nmap <Leader>vv :e $HOME/.vim/vimrc<CR>
